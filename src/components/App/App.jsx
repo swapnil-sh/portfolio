@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import GoHome from "../GoHome/GoHome";
@@ -12,7 +12,7 @@ import './App.css';
 const App = () => {
     return (
         <div>
-            <BrowserRouter>
+            <HashRouter>
                 <div>
                     <NavBar />
                     <Route path='/' exact component={Home}></Route>
@@ -22,7 +22,7 @@ const App = () => {
                     <Route path='/contact' exact component={Contact}></Route>
                     <GoHome/>                    
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 };
