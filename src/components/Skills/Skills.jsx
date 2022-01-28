@@ -2,7 +2,7 @@ import React from "react";
 import FooterLink from "../FooterLink/FooterLink";
 import Header from "../Header/Header";
 import {skillList} from './../../assets/skillsData';
-import skillaVector from './../../assets/skills_vector.png';
+import skillsVector from './../../assets/skills_vector.png';
 import SkillCard from "./SkillCard";
 import './Skills.css';
 
@@ -28,7 +28,7 @@ const Skills = () => {
 
             <div className="skills-vector-frame">
                 <img 
-                    src={skillaVector}
+                    src={skillsVector}
                     alt='skills'
                     className="skills-vector"
                 />
