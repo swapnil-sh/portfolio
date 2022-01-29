@@ -20,7 +20,7 @@ const Modal = ({closeModal}) => {
                     </p>
                 </div>
                 <div className="lower-section">
-                    <a onClick={closeModal} className="modal-btn btn-red">Close</a>
+                    <a onClick={closeModal} href={closeModal} className="modal-btn btn-red">Close</a>
                     <a href="www.github.com/swapnil-sh" target='_blank' rel='noreferrer' className="modal-btn btn-green">Check my Github</a>
                 </div>
             </div>    
