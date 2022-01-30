@@ -10,8 +10,8 @@ const Skills = () => {
     return (
         <div className="section-container">
             <Header 
-                heading="My Skillset." 
-                details="Passionate about new technologies and exploring random stuffs. Here's the tech stack I have work with!"    
+                heading="My Skillset" 
+                details="Here's the tech stack I have worked with "    
             />
 
             <div className="skill-card-container">
