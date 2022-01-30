@@ -16,27 +16,19 @@ export const skillList = [
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
     {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
-    },
-    {
-        skillName: 'NodeJS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
-    },
-    {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
-    },
-    {
         skillName: 'Java',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
     },
     {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
+        skillName: 'Python',
+        skillUrl: 'https://1000logos.net/wp-content/uploads/2020/08/Python-Emblem.jpg',
     },
     {
-        skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
+        skillName: 'Django',
+        skillUrl: 'https://verbose-equals-true.gitlab.io/django-postgres-vue-gitlab-ecs/django.jpg',
+    },
+    {
+        skillName: 'MySQL',
+        skillUrl: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png',
     },
 ];

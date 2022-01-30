@@ -9,14 +9,14 @@ const Modal = ({closeModal}) => {
         <div onClick={closeModal} className="modal-overlay">
             <div onClick={(e) => e.stopPropagation()} className="modal-container">
                 <div className="upper-section">
-                    <h1>Huge Announcement!!</h1>
+                    <h1>Hey there!</h1>
                     <p onClick={closeModal} className="close">&times;</p>
                 </div>
                 <div className="middle-section">
-                    <h4>Data Structures and Algorthms ould be live soon!</h4>
-                    <p>Do you wish to master DS and algo for your interview preparation!!?</p>
-                    <p>It would be completely FREE of cost!</p>
-                    <p>Watchout for my blogs and other initiatives as well.
+                    <h4>Checkout my new Blog!</h4>
+                    <p>How to solve maximum sum subarray question Kadanes Algorithm?</p>
+                    <p>Have discussed all approaches with complete code in Java!</p>
+                    <p>Watchout for my recent blogs and other initiatives as well.
                     </p>
                 </div>
                 <div className="lower-section">

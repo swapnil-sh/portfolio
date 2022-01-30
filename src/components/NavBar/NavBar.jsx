@@ -13,6 +13,7 @@ class NavBar extends React.Component {
         const aboutClass = location.pathname === '/about' ? 'active-item':'';
         const projectsClass = location.pathname === '/projects' ? 'active-item':'';
         const skillsClass = location.pathname === '/skills' ? 'active-item':'';
+        const blogsClass = location.pathname === '/blogs' ? 'active-item':'';
         const contactClass = location.pathname === '/contact' ? 'active-item':'';
 
         return (
@@ -34,6 +35,9 @@ class NavBar extends React.Component {
                 </Link>
                 <Link to="/skills" className={`menu-item ${skillsClass}`}>
                     Skills
+                </Link>
+                <Link to="/blogs" className={`menu-item ${blogsClass}`}>
+                    Blogs
                 </Link>
                 <Link to="/contact" className={`menu-item ${contactClass}`}>
                     Contact
